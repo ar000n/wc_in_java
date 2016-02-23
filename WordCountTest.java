@@ -35,7 +35,7 @@ public class WordCountTest{
 	}
 
 	@Test
-	public void should_return_number_of_lwetters_in_a_empty_string(){
+	public void should_return_number_of_letters_in_a_empty_string(){
 		WordCount string = new WordCount("");
 		assertEquals(string.hasLettersOf(),0);
 	}
